@@ -7,6 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
     <script src="script.js"></script>
     <link rel="shortcut icon" href="img/Fundaac-logo.png">
@@ -36,17 +37,17 @@
 
         <!-- Nav tabs -->
         <div class="h6">CURSOS</div>
-        <a href="http://" class="btn btn-dark">Manicura</a>
-        <a href="http://" class="btn btn-dark">Pastelería</a>
+        <a href="#" class="btn btn-dark">Manicura</a>
+        <a href="#" class="btn btn-dark">Pastelería</a>
         <hr style="opacity:1">
         <br>
         <div class="h6">DEPORTES</div>
-        <a href="http://" class="btn btn-dark">Hockey</a>
-        <a href="http://" class="btn btn-dark">Natación</a>
+        <a href="#" class="btn btn-dark">Hockey</a>
+        <a href="#" class="btn btn-dark">Natación</a>
         <hr style="opacity:1">
         <br>
         <div class="h6">OTROS</div>
-        <a href="http://" class="btn btn-dark">Yoga</a>
+        <a href="#" class="btn btn-dark">Yoga</a>
         <hr style="opacity:1">
 
         </div>
@@ -78,7 +79,82 @@
                 <div class="card-footer bg-success"></div>
             </div>
 
-            <div class="card mt-4 mb-4">
+            <!--PRINCIPIO DE ACORDIÓN *********************************************************************************************************************************************************-->
+            <div class="card">
+                <div class="card-header h3 bg-dark text-white" style="text-align: center;">INSCRIPCIONES ABIERTAS</div>
+                <div class="card-body">
+                    <P style="text-align: justify; font-family: 'Anton', sans-serif; font-style: normal;" class="m-2">
+                        Dejamos a disposición las distintas actividades que ofrecemos para vos. "Algunas son aranceladas y otras totalmente gratuitas". <span class="fw-bold"> Pagando una actividad podés elegir otra más de las que son pagas "sin costo".</span>
+                    <P style="text-align: justify; font-family: 'Anton', sans-serif; font-style: normal;" class="m-2">
+                        Para inscribirte te dejamos el formulario de inscripción <a href="#" class="btn btn-dark">Aquí</a>
+                    </p>
+                    <P style="text-align: justify; font-family: 'Anton', sans-serif; font-style: normal;" class="m-2">
+                        Para cualquier duda o mayor detalle consultar a los siguientes contactos: 
+                        <a href="https://wa.me/+543794765770" target="_blank" class="btn btn-outline-success bi bi-whatsapp m-1"> 3794 - 765770</a>
+                        <a href="https://www.instagram.com/fundacionctesdiversa.ok/" target="_blank" class="btn btn-outline-danger bi bi-instagram m-1"> fundacionctesdiversa.ok</a>
+                    </p>
+                    </P><br>
+                    <div id="accordion">
+                        <div class="card">
+                          <div class="card-header d-grid">
+                            <a style="font-size:x-large; background-color: darkmagenta;" class="collapsed btn btn-block btn-success" data-bs-toggle="collapse" href="#collapseOne">
+                              CURSOS
+                            </a>
+                          </div>
+                          <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                              <!--cuerpo del collapse 1-->
+                              <div class="m-1">
+                                <a href="#" class="col btn btn-dark m-1">Manicura</a>
+                                <a href="#" class="col btn btn-dark m-1">Pastelería</a>
+                              </div>
+                              <!--fin del cuerpo del collapse 1-->
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="card">
+                          <div class="card-header d-grid">
+                            <a style="font-size:x-large; background-color: darkmagenta;" class="collapsed btn btn-block btn-success" data-bs-toggle="collapse" href="#collapseTwo">
+                              DEPORTES
+                            </a>
+                          </div>
+                          <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                              <!--cuerpo del collapse 2-->
+                              <div class="m-1">
+                                <a href="#" class="col btn btn-dark m-1">Hockey</a>
+                                <a href="#" class="col btn btn-dark m-1">Natación</a>
+                              </div>
+                              <!--fin del cuerpo del collapse 2-->
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="card">
+                          <div class="card-header d-grid">
+                            <a style="font-size:x-large; background-color: darkmagenta;" class="collapsed btn btn-block btn-success" data-bs-toggle="collapse" href="#collapseThree">
+                              OTROS
+                            </a>
+                          </div>
+                          <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                              <!--cuerpo del collapse 3-->
+                              <div class="m-1">
+                                <a href="#" class="col btn btn-dark m-1">Yoga</a>
+                              </div>
+                              <!--fin del cuerpo del collapse 3-->
+                            </div>
+                          </div>
+                        </div>
+                      
+                      </div>
+                </div>
+            </div>
+            
+        <!--FIN DE ACORDIÓN ********************************************************************************************************************************************************************-->
+
+            <div class="card mt-4 mb-4 bg-success">
                     <div class="d-flex h2 text-white bg-success card-header">
                         <div class="p-2 flex-fill" style="text-align: left;">Auspiciantes:</div>
                         <div class="p-2 flex-fill" style="text-align: right;"><i class="bi bi-shop"></i></div>
