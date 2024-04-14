@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <!-- fuente de actividad-->
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <!-- fuente de actividad-->
     <link rel="stylesheet" href="estilos.css">
     <script src="script.js"></script>
     <link rel="shortcut icon" href="img/Fundaac-logo.png">
@@ -17,7 +20,7 @@
 <body>
     <nav class="navbar navbar-expand-sm bg-success navbar-success">
         <div class="container-fluid">
-            <a class="navbar-brand" href="https://actividades-diversa.vercel.app/">
+            <a class="navbar-brand" href="index.html">
                 <img src="img/Fundaac-logo.png" alt="" style="height: 50px; width:50px;">
               </a>
             <button class="btn btn-lg text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
@@ -58,18 +61,38 @@
     <main class="container">
         <img class="img-fluid rounded-bottom-2 border border-2 border-secondary mx-auto d-block" src="img/pasteleria.jpeg" alt="" style="width: 100%;">
 
-        <div class="card mt-4 mb-4" style="font-family: 'Impact', sans-serif; font-style: normal;">
+        <div class="card mt-4 mb-4" style="font-family: 'Bungee', sans-serif; font-style: normal;">
           <div class="card-header bg-success text-white h4 text-center">Pastelería</div>
-          <div class="card-body">
-            <p>Contactanos: <a href="https://www.instagram.com/pastelitorosa6/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-danger bi-instagram text-break"> pastelitorosa6</a></p>
-            <p>Cupo: <span class="text-secondary"> 10 personas (consultar cupos en nuestra red social de contacto)</span></p>
-            <p>Lugares: <span class="text-secondary"> Valenzuela 2771. Bº Progreso</span></p>
-            <p>Dias: <span class="text-secondary"> Martes, Jueves y Sábado</span></p>
-            <p>Horarios: <span class="text-secondary"> 18 a 20 hs</span></p>
-            <p>Inscripción: <a class="text-secondary" style="text-decoration: none;" onclick="inscripcion()"> ➡️aquí⬅️</a></p>
+          <div class="card-body d-grid">
+            <p class="btn btn-block btn-dark">Contactanos: 
+              <a href="https://www.instagram.com/pastelitorosa6/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-danger bi-instagram text-break m-1"> pastelitorosa6</a>
+              <a href="https://wa.me/+543794253318" target="_blank" rel="noopener noreferrer" class="fw-bold btn btn-light bi-whatsapp text-break m-1"> +54 9 3794 25-3318</a>
+            </p>
+            <p class="btn btn-block btn-dark">Cupo: <span class="text-secondary"> 20 personas (consultar cupos en nuestra red social de contacto)</span></p>
+            <p class="btn btn-block btn-dark">Lugares: <span class="text-secondary"> San Juan 1131 (ACDP) </span></p>
+            <p class="btn btn-block btn-dark">Dias: <span class="text-secondary"> Sábado</span></p>
+            <p class="btn btn-block btn-dark">Horarios: <span class="text-secondary"> 18 a 20 hs</span></p>
+            <p class="btn btn-block btn-dark">Inscripción: <a class="text-secondary btn btn-light" style="text-decoration: none;" href="https://forms.gle/Tm61L12SAX5yEWZC8" target="_blank"> ➡️aquí⬅️</a></p>
           </div>
           <div class="card-footer">
-           
+            <a href="https://maps.app.goo.gl/uNdKH8UuFR52dtMeA" target="_blank" rel="noopener noreferrer" class="btn btn-success bi-geo-alt">ACDP</a>
+          </div>
+        </div>
+
+        <div class="card mt-4 mb-4 text-center" style="font-family: 'Bungee', sans-serif; font-style: normal;">
+          <div class="card-header bg-success text-white h4 text-center">Cuota</div>
+          <div class="card-body d-grid">
+            <p class="fw-bold">
+              Socios:<span class="text-danger"> "$3.000"</span>
+              <br>
+              No Socios:<span class="text-danger"> "$5.000"</span>
+            </p>
+            <p class="fw-bold">
+              <span class="text-success"> "La cuota la podés abonar al CBU de la fundación:"</span>
+          </p>
+          <p class="fw-bold">CBU: <input type="text" id="copyCbu" value="0940099330010170690010" disabled style="border: 0; text-align: center; font-weight: bold;" class="text-break"><button class="btn btn-outline-dark bi bi-copy" onclick="copiarCbu()"> copiar</button></p>
+          <p>Una vez abonada la cuota enviar comprobante junto con número de DNI y Nombre completo al siguiente número para registrar tu pago:</p>
+          <a href="https://wa.me/+543795005047" target="_blank" rel="noopener noreferrer" class="fw-bold btn btn-outline-dark bi-whatsapp text-break"> +54 9 3795 00-5047</a>
           </div>
         </div>
     </main>

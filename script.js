@@ -19,3 +19,15 @@ function ocultar(){
             `,
             });
         }
+
+        function copiarCbu(){
+            let text = document.getElementById('copyCbu')
+            text.select()
+            navigator.clipboard.writeText(text.value)
+            
+            Swal.fire({
+                text: 'Copiado El CBU: ' +text.value,
+                imageUrl: "img/cuenta.jpeg",
+                imageWidth: 500,
+                });
+        }
