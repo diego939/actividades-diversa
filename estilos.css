@@ -10,6 +10,10 @@ body{
     width: 30%;
 }
 
+.miVideo2{
+    width: 80%;
+}
+
 @media handheld, screen and (min-width: 600px) and (max-width: 1023px) {
     .miVideo{
         width: 70%;
