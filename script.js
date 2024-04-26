@@ -34,11 +34,10 @@ function ocultar(){
 
         function recordatorio(){
             Swal.fire({
+                icon: "info",
                 html: `
                 <p style="font-family: 'Anton', sans-serif; font-style: normal;">📚 Buenos días llegó el día gran lanzamiento de nuestra sede para la terminalidad educativa de primaria y secundaria</p>
-                                <div class="d-flex justify-content-center mx-auto d-block" style="width: 100%;">
-                                    <video controls autoplay class="miVideo2" src="img/finalidadedu2.mp4" poster="img/finalidadedu2.jpeg">Tu navegador no soporta HTML5 </video>
-                                </div>
+                <p> Este viernes lanzamiento, charla informativa y merienda 🙌</p>
                                 <div class="d-grid">
                                     <a href="https://maps.app.goo.gl/uNdKH8UuFR52dtMeA" target="_blank" rel="noopener noreferrer" class="btn btn-success bi-geo-alt m-2">San Juan 1131 (ACDP)</a>
                                     <button class="btn btn-outline-success bi-calendar-check m-2"> 26/04 </button>
